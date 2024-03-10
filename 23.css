@@ -1,0 +1,524 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+
+.social_media{
+    margin: 4px;
+    background-color: rgb(179, 173, 173);
+    color: rgb(105, 98, 98);
+    margin: 5px;
+    padding: 4PX;
+    border-radius: 4PX;
+    font-size:24px
+   
+}
+
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2px;
+}
+select{
+    color: grey;
+    margin: 7px;
+    border: none;
+    background-color: white;
+}
+.head1 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.heart{
+    color: grey;
+    margin: 4px;
+}
+.head2 p{
+    font-size: 40px;
+    color: rgb(249, 139, 157);
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    width: 99%;
+    border: 1px solid black;
+}
+.head2 input{
+    padding: 20px;
+    width: 550px;
+    height: 30px;
+}
+.search{
+    position: relative;
+    right: 130px;
+    /* margin-top: 2px; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.head3{
+    text-align: center;
+    margin: 16px;
+}
+.head4{
+    /* margin-left: 60px; */
+    padding: 70px;
+    background-image:url(banner.jpg);
+
+}
+.mainhead{
+    display: flex;
+}
+.head7 p{
+    font-weight: bold; 
+    margin: 15px;
+    font-size: 30px; 
+    color: black;
+}
+.trending{
+    color: rgb(250, 100, 125);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.women{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.fashion{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.starting{
+    color: grey;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: rgb(241, 76, 103);
+    border-radius: 5px;
+    width: 110px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* ======================================================================== */
+
+.firstbox{
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    margin: 30px;
+    display: flex;
+
+}
+img{
+    width: 50px;
+    height: 49px;
+    background-color: rgb(207, 188, 188);
+}
+.dress1{
+font-size: 13px;
+margin-top: 7px;
+}
+.dress2{
+    font-size: 13px;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+.dress3{
+    font-size: 13px;
+    margin-top: 7px;
+}
+.dress4{
+    font-size: 13px;
+    margin-top: 7px;
+}
+.treppan1{ 
+     color: grey;
+     margin-top: 7px;
+     margin-left: 40px;
+    font-size: 10px
+}
+.treppan2{ 
+    color: grey;
+    margin-top: 7px;
+    margin-left: 38px;
+   font-size: 10px
+}
+.treppan3{ 
+    color: grey;
+    margin-top: 7px;
+    margin-left: 60px;
+   font-size: 10px
+}
+.treppan4{ 
+    color: grey;
+    margin-top: 7px;
+    margin-left: 38px;
+   font-size: 10px
+}
+.showall1{
+    color: rgb(243, 130, 149);
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.showall2{
+    color: rgb(243, 130, 149);
+    margin-left: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.showall3{
+    color: rgb(243, 130, 149);
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.showall4{
+    color: rgb(243, 130, 149);
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.sentence1{
+    display: flex;
+    margin-left: 20px;
+}
+.sentence2{
+    display: flex;
+    margin-left: 12px;
+}
+.sentence3{
+    display: flex;
+    margin-left: 20px;
+}
+.sentence4{
+    display: flex;
+    margin-left: 20px;
+}
+.head5{
+    display: flex;
+}
+.head6{
+    font-size: 1em;
+    margin: 2px;
+    width: 300px;
+    font-style: none;
+    margin-left: 20px;
+    color: grey;
+    position: sticky;
+    top: 0px;
+
+}
+.sneha{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.sneha img{
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+}
+.categories{
+    margin: 12px;
+    color: black;
+
+}
+.sneha .fa{
+    margin-left: 160px;
+    color: black;
+}
+.head7{
+    width: 270px;
+    height: 370px;
+
+}
+.orange1{
+    border: 1px solid black;
+    display: flex;
+    margin: 12px;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.orange2{
+    border: 1px solid black;
+    display: flex;
+    margin: 12px;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.orange3{
+    border: 1px solid black;
+    display: flex;
+    margin: 12px;
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+.orange4{
+    border: 1px solid black;
+    display: flex;
+    margin: 12px;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.wholetext{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 205px;
+
+}
+.orange4 img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.orange1 img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.orange2 img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.orange3 img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.text{
+    color: black;
+}
+.middle{
+    color: black;
+}
+hr{
+    width: 190px;
+    color: grey;
+}
+.head9{
+    width: 250px;
+    height: 400px;
+  
+}
+.head9{
+    width: 270px;
+    height: 400px;
+}
+.head10{
+    width: 270px;
+    height: 400px;
+}
+.shempoolelo img{
+    width: 380px;
+    height: 380px;
+}
+.shempoolelo{
+    border: 1px solid grey;
+    margin: 20px;
+    width: 780px;
+    display: flex;
+}
+.shempootext{
+    margin-top: 30px;
+}
+.numbers{
+    display: flex;
+}
+.number1{
+    background-color: rgb(216, 210, 210);
+    width: 70px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.number2{
+    background-color: rgb(216, 210, 210);
+    width: 70px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.number3{
+    background-color: rgb(216, 210, 210);
+    width: 70px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.number4{
+    background-color: rgb(216, 210, 210);
+    width: 70px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.charwala1{
+    border: 1px solid grey;
+    width: 205px;
+    margin-left: 15px;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.meet h1{
+    border-bottom: 1px solid grey;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.abcd img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 4% 0%;
+}
+.fa-quote-left{
+   margin: 3%;
+
+}
+.meet2{
+    background-image: url(https://prabhatlodhi-ecomm-site-responsive.netlify.app/images/cta-banner.jpg);
+    /* background-repeat: no-repeat; */
+    height: 380px;
+    width: 582px;
+    margin: 20px;
+    margin-top:2px ;
+    /* margin-left: 60px; */
+    margin-right: 20px;
+    margin-left: 80px;
+    
+}
+.bcda{
+
+    background-color: white; 
+    text-align: center; 
+    border-radius:10px; 
+    margin: 170px;
+    width: 250px; 
+    height: 250px;
+    opacity: 0.7;
+    margin-top: 65px;
+    padding-top: 50px;
+
+    
+}
+.bcda .nam{
+    background-color: rgb(21, 17, 17);
+    width:170px;
+    border-radius: 5px;
+    margin: 0px auto;
+    color: white;
+    padding: 10px;
+    
+
+}
+/* .brand{
+    padding: 3px 9px;
+    border-bottom: 1 px solid grey;
+    background-color: black;
+    color:white ;
+    width: auto;
+}
+.brand p{
+    font-weight: bold;
+    color:rgb(227, 147, 161) ;
+}
+.list{
+    margin:  opx;
+}
+.list li{
+    display: inline;
+    font-size: 0.7em;
+}
+.list a{
+    color:grey;
+    
+}
+.bijju{
+    background-color: black;
+    border-bottom: 1 px solid grey;
+    align-items: stretch;
+}
+.minu{
+    padding :3% 2%;
+}
+.minu p{
+    font-weight: bold;
+    color:white;
+}
+.minu a{
+    color: grey;
+    font-size: 0.8em;
+} */
+.blackwalapura a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 2px;
+    size: 10px;
+}
+.second{
+    display: flex;
+}
+.second a{
+    font-weight: bold; 
+    margin: 15px;
+    font-size: 25px;
+}
+.second hr{
+    width: 240px; 
+    margin-left: 14px;
+}
+.second img{
+    margin-bottom: 15px;
+}
+.charwala{
+    display: flex;
+}
+.charwala1 img{
+    width: 180px;
+    height: 150px;
+}
+.shempuwala h1{
+    font-size: 25px; 
+    margin-left: 20px;
+}
+.shempuwala hr{
+    width: 780px; 
+    margin-left: 20px;
+}
